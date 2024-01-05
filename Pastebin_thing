@@ -1,0 +1,8 @@
+[binaries]
+ar = '/data/data/com.termux/files/home/android-ndk-r23b/toolchains/llvm/prebuilt/linux-aarch64/bin/llvm-ar'
+c = ['ccache', '/data/data/com.termux/files/home/android-ndk-r23b/toolchains/llvm/prebuilt/linux-aarch64/bin/aarch64-linux-android31-clang']
+cpp = ['ccache', '/data/data/com.termux/files/home/android-ndk-r23b/toolchains/llvm/prebuilt/linux-aarch64/bin/aarch64-linux-android31-clang++', '-fno-exceptions', '-fno-unwind-tables', '-fno-asynchronous-unwind-tables', '-static-libstdc++']
+c_ld = 'lld'
+cpp_ld =  'lld'
+strip = '/data/data/com.termux/files/home/android-ndk-r23b/toolchains/llvm/prebuilt/linux-aarch64/bin/llvm-strip'
+pkgconfig = ['env', 'PKG_CONFIG_LIBDIR=/data/data/com.termux/files/home/android-ndk-r23b/usr/lib/pkgconfig', 'pkg-config']
